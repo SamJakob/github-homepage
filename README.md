@@ -13,7 +13,7 @@ You cannot permenantly install this addon in Firefox without it being accepted o
 
 To install it temporarily for the current session:
 
-1. Go to `about:debugging` and select "Thsis Firefox" in the left-hand sidebar.
+1. Go to `about:debugging` and select "This Firefox" in the left-hand sidebar.
 2. Under "Temporary Extensions" choose "Load Temporary Add-on..."
 3. Choose the `manifest.json` file in this repository (you need the other files to be there also, so having cloned the repository you can then navigate to that file in the Select dialog).
 
