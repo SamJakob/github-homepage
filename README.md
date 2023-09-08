@@ -4,6 +4,7 @@ Restore the old GitHub dashboard. Submitted to Firefox Developer Hub and Google 
 
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/github-homepage-restorer/)
 - [Chrome](https://chrome.google.com/webstore/detail/cfdlcjikdibojiddgiijfeiaoohbklec/)
+- Safari (_notarization requested_)
 
 _Links will be unavailable whilst review is pending._
 
