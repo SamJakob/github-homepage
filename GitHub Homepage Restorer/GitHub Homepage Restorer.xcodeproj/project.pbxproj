@@ -1,0 +1,953 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		391A27A62AAAB85800C024DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391A27A52AAAB85800C024DE /* AppDelegate.swift */; };
+		391A27A82AAAB85800C024DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391A27A72AAAB85800C024DE /* SceneDelegate.swift */; };
+		391A27AB2AAAB85800C024DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 391A27A92AAAB85800C024DE /* LaunchScreen.storyboard */; };
+		391A27AE2AAAB85800C024DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 391A27AC2AAAB85800C024DE /* Main.storyboard */; };
+		391A27B72AAAB85800C024DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391A27B62AAAB85800C024DE /* AppDelegate.swift */; };
+		391A27BA2AAAB85800C024DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 391A27B82AAAB85800C024DE /* Main.storyboard */; };
+		391A27C22AAAB85800C024DE /* GitHub Homepage Restorer Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 391A27C12AAAB85800C024DE /* GitHub Homepage Restorer Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		391A27CC2AAAB85800C024DE /* GitHub Homepage Restorer Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 391A27CB2AAAB85800C024DE /* GitHub Homepage Restorer Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		391A27D22AAAB85800C024DE /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 391A27952AAAB85700C024DE /* Main.html */; };
+		391A27D32AAAB85800C024DE /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 391A27952AAAB85700C024DE /* Main.html */; };
+		391A27D42AAAB85800C024DE /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A27972AAAB85700C024DE /* Icon.png */; };
+		391A27D52AAAB85800C024DE /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 391A27972AAAB85700C024DE /* Icon.png */; };
+		391A27D62AAAB85800C024DE /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 391A27982AAAB85700C024DE /* Style.css */; };
+		391A27D72AAAB85800C024DE /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 391A27982AAAB85700C024DE /* Style.css */; };
+		391A27D82AAAB85800C024DE /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 391A27992AAAB85700C024DE /* Script.js */; };
+		391A27D92AAAB85800C024DE /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 391A27992AAAB85700C024DE /* Script.js */; };
+		391A27DA2AAAB85800C024DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391A279A2AAAB85700C024DE /* ViewController.swift */; };
+		391A27DB2AAAB85800C024DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391A279A2AAAB85700C024DE /* ViewController.swift */; };
+		391A27DC2AAAB85800C024DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 391A279B2AAAB85800C024DE /* Assets.xcassets */; };
+		391A27DD2AAAB85800C024DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 391A279B2AAAB85800C024DE /* Assets.xcassets */; };
+		391A27DE2AAAB85800C024DE /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391A279D2AAAB85800C024DE /* SafariWebExtensionHandler.swift */; };
+		391A27DF2AAAB85800C024DE /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391A279D2AAAB85800C024DE /* SafariWebExtensionHandler.swift */; };
+		391A27F62AAAB85800C024DE /* github-homepage.css in Resources */ = {isa = PBXBuildFile; fileRef = 391A27F12AAAB85800C024DE /* github-homepage.css */; };
+		391A27F72AAAB85800C024DE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 391A27F22AAAB85800C024DE /* LICENSE */; };
+		391A27F82AAAB85800C024DE /* github-homepage.js in Resources */ = {isa = PBXBuildFile; fileRef = 391A27F32AAAB85800C024DE /* github-homepage.js */; };
+		391A27F92AAAB85800C024DE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 391A27F42AAAB85800C024DE /* README.md */; };
+		391A27FA2AAAB85800C024DE /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 391A27F52AAAB85800C024DE /* manifest.json */; };
+		391A27FB2AAAB85800C024DE /* github-homepage.css in Resources */ = {isa = PBXBuildFile; fileRef = 391A27F12AAAB85800C024DE /* github-homepage.css */; };
+		391A27FC2AAAB85800C024DE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 391A27F22AAAB85800C024DE /* LICENSE */; };
+		391A27FD2AAAB85800C024DE /* github-homepage.js in Resources */ = {isa = PBXBuildFile; fileRef = 391A27F32AAAB85800C024DE /* github-homepage.js */; };
+		391A27FE2AAAB85800C024DE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 391A27F42AAAB85800C024DE /* README.md */; };
+		391A27FF2AAAB85800C024DE /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 391A27F52AAAB85800C024DE /* manifest.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		391A27C32AAAB85800C024DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 391A278F2AAAB85700C024DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 391A27C02AAAB85800C024DE;
+			remoteInfo = "GitHub Homepage Restorer Extension (iOS)";
+		};
+		391A27CD2AAAB85800C024DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 391A278F2AAAB85700C024DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 391A27CA2AAAB85800C024DE;
+			remoteInfo = "GitHub Homepage Restorer Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		391A27E52AAAB85800C024DE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				391A27C22AAAB85800C024DE /* GitHub Homepage Restorer Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391A27EC2AAAB85800C024DE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				391A27CC2AAAB85800C024DE /* GitHub Homepage Restorer Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		391A27962AAAB85700C024DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		391A27972AAAB85700C024DE /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		391A27982AAAB85700C024DE /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		391A27992AAAB85700C024DE /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		391A279A2AAAB85700C024DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		391A279B2AAAB85800C024DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		391A279D2AAAB85800C024DE /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		391A27A22AAAB85800C024DE /* GitHub Homepage Restorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub Homepage Restorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		391A27A52AAAB85800C024DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		391A27A72AAAB85800C024DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		391A27AA2AAAB85800C024DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		391A27AD2AAAB85800C024DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		391A27AF2AAAB85800C024DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		391A27B42AAAB85800C024DE /* GitHub Homepage Restorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub Homepage Restorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		391A27B62AAAB85800C024DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		391A27B92AAAB85800C024DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		391A27BB2AAAB85800C024DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		391A27BC2AAAB85800C024DE /* GitHub Homepage Restorer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "GitHub Homepage Restorer.entitlements"; sourceTree = "<group>"; };
+		391A27C12AAAB85800C024DE /* GitHub Homepage Restorer Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GitHub Homepage Restorer Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		391A27C62AAAB85800C024DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		391A27CB2AAAB85800C024DE /* GitHub Homepage Restorer Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GitHub Homepage Restorer Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		391A27D02AAAB85800C024DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		391A27D12AAAB85800C024DE /* GitHub Homepage Restorer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "GitHub Homepage Restorer.entitlements"; sourceTree = "<group>"; };
+		391A27F12AAAB85800C024DE /* github-homepage.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = "github-homepage.css"; path = "../../../github-homepage/github-homepage.css"; sourceTree = "<group>"; };
+		391A27F22AAAB85800C024DE /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = "../../../github-homepage/LICENSE"; sourceTree = "<group>"; };
+		391A27F32AAAB85800C024DE /* github-homepage.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "github-homepage.js"; path = "../../../github-homepage/github-homepage.js"; sourceTree = "<group>"; };
+		391A27F42AAAB85800C024DE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../../github-homepage/README.md"; sourceTree = "<group>"; };
+		391A27F52AAAB85800C024DE /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../../github-homepage/manifest.json"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		391A279F2AAAB85800C024DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391A27B12AAAB85800C024DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391A27BE2AAAB85800C024DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391A27C82AAAB85800C024DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		391A278E2AAAB85700C024DE = {
+			isa = PBXGroup;
+			children = (
+				391A27932AAAB85700C024DE /* Shared (App) */,
+				391A279C2AAAB85800C024DE /* Shared (Extension) */,
+				391A27A42AAAB85800C024DE /* iOS (App) */,
+				391A27B52AAAB85800C024DE /* macOS (App) */,
+				391A27C52AAAB85800C024DE /* iOS (Extension) */,
+				391A27CF2AAAB85800C024DE /* macOS (Extension) */,
+				391A27A32AAAB85800C024DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		391A27932AAAB85700C024DE /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				391A279A2AAAB85700C024DE /* ViewController.swift */,
+				391A279B2AAAB85800C024DE /* Assets.xcassets */,
+				391A27942AAAB85700C024DE /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		391A27942AAAB85700C024DE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				391A27952AAAB85700C024DE /* Main.html */,
+				391A27972AAAB85700C024DE /* Icon.png */,
+				391A27982AAAB85700C024DE /* Style.css */,
+				391A27992AAAB85700C024DE /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		391A279C2AAAB85800C024DE /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				391A27F02AAAB85800C024DE /* Resources */,
+				391A279D2AAAB85800C024DE /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		391A27A32AAAB85800C024DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				391A27A22AAAB85800C024DE /* GitHub Homepage Restorer.app */,
+				391A27B42AAAB85800C024DE /* GitHub Homepage Restorer.app */,
+				391A27C12AAAB85800C024DE /* GitHub Homepage Restorer Extension.appex */,
+				391A27CB2AAAB85800C024DE /* GitHub Homepage Restorer Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		391A27A42AAAB85800C024DE /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				391A27A52AAAB85800C024DE /* AppDelegate.swift */,
+				391A27A72AAAB85800C024DE /* SceneDelegate.swift */,
+				391A27A92AAAB85800C024DE /* LaunchScreen.storyboard */,
+				391A27AC2AAAB85800C024DE /* Main.storyboard */,
+				391A27AF2AAAB85800C024DE /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		391A27B52AAAB85800C024DE /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				391A27B62AAAB85800C024DE /* AppDelegate.swift */,
+				391A27B82AAAB85800C024DE /* Main.storyboard */,
+				391A27BB2AAAB85800C024DE /* Info.plist */,
+				391A27BC2AAAB85800C024DE /* GitHub Homepage Restorer.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		391A27C52AAAB85800C024DE /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				391A27C62AAAB85800C024DE /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		391A27CF2AAAB85800C024DE /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				391A27D02AAAB85800C024DE /* Info.plist */,
+				391A27D12AAAB85800C024DE /* GitHub Homepage Restorer.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		391A27F02AAAB85800C024DE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				391A27F12AAAB85800C024DE /* github-homepage.css */,
+				391A27F22AAAB85800C024DE /* LICENSE */,
+				391A27F32AAAB85800C024DE /* github-homepage.js */,
+				391A27F42AAAB85800C024DE /* README.md */,
+				391A27F52AAAB85800C024DE /* manifest.json */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		391A27A12AAAB85800C024DE /* GitHub Homepage Restorer (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 391A27E62AAAB85800C024DE /* Build configuration list for PBXNativeTarget "GitHub Homepage Restorer (iOS)" */;
+			buildPhases = (
+				391A279E2AAAB85800C024DE /* Sources */,
+				391A279F2AAAB85800C024DE /* Frameworks */,
+				391A27A02AAAB85800C024DE /* Resources */,
+				391A27E52AAAB85800C024DE /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				391A27C42AAAB85800C024DE /* PBXTargetDependency */,
+			);
+			name = "GitHub Homepage Restorer (iOS)";
+			productName = "GitHub Homepage Restorer (iOS)";
+			productReference = 391A27A22AAAB85800C024DE /* GitHub Homepage Restorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		391A27B32AAAB85800C024DE /* GitHub Homepage Restorer (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 391A27ED2AAAB85800C024DE /* Build configuration list for PBXNativeTarget "GitHub Homepage Restorer (macOS)" */;
+			buildPhases = (
+				391A27B02AAAB85800C024DE /* Sources */,
+				391A27B12AAAB85800C024DE /* Frameworks */,
+				391A27B22AAAB85800C024DE /* Resources */,
+				391A27EC2AAAB85800C024DE /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				391A27CE2AAAB85800C024DE /* PBXTargetDependency */,
+			);
+			name = "GitHub Homepage Restorer (macOS)";
+			productName = "GitHub Homepage Restorer (macOS)";
+			productReference = 391A27B42AAAB85800C024DE /* GitHub Homepage Restorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		391A27C02AAAB85800C024DE /* GitHub Homepage Restorer Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 391A27E22AAAB85800C024DE /* Build configuration list for PBXNativeTarget "GitHub Homepage Restorer Extension (iOS)" */;
+			buildPhases = (
+				391A27BD2AAAB85800C024DE /* Sources */,
+				391A27BE2AAAB85800C024DE /* Frameworks */,
+				391A27BF2AAAB85800C024DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GitHub Homepage Restorer Extension (iOS)";
+			productName = "GitHub Homepage Restorer Extension (iOS)";
+			productReference = 391A27C12AAAB85800C024DE /* GitHub Homepage Restorer Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		391A27CA2AAAB85800C024DE /* GitHub Homepage Restorer Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 391A27E92AAAB85800C024DE /* Build configuration list for PBXNativeTarget "GitHub Homepage Restorer Extension (macOS)" */;
+			buildPhases = (
+				391A27C72AAAB85800C024DE /* Sources */,
+				391A27C82AAAB85800C024DE /* Frameworks */,
+				391A27C92AAAB85800C024DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GitHub Homepage Restorer Extension (macOS)";
+			productName = "GitHub Homepage Restorer Extension (macOS)";
+			productReference = 391A27CB2AAAB85800C024DE /* GitHub Homepage Restorer Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		391A278F2AAAB85700C024DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					391A27A12AAAB85800C024DE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					391A27B32AAAB85800C024DE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					391A27C02AAAB85800C024DE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					391A27CA2AAAB85800C024DE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 391A27922AAAB85700C024DE /* Build configuration list for PBXProject "GitHub Homepage Restorer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 391A278E2AAAB85700C024DE;
+			productRefGroup = 391A27A32AAAB85800C024DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				391A27A12AAAB85800C024DE /* GitHub Homepage Restorer (iOS) */,
+				391A27B32AAAB85800C024DE /* GitHub Homepage Restorer (macOS) */,
+				391A27C02AAAB85800C024DE /* GitHub Homepage Restorer Extension (iOS) */,
+				391A27CA2AAAB85800C024DE /* GitHub Homepage Restorer Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		391A27A02AAAB85800C024DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391A27D42AAAB85800C024DE /* Icon.png in Resources */,
+				391A27AB2AAAB85800C024DE /* LaunchScreen.storyboard in Resources */,
+				391A27D22AAAB85800C024DE /* Main.html in Resources */,
+				391A27D82AAAB85800C024DE /* Script.js in Resources */,
+				391A27DC2AAAB85800C024DE /* Assets.xcassets in Resources */,
+				391A27AE2AAAB85800C024DE /* Main.storyboard in Resources */,
+				391A27D62AAAB85800C024DE /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391A27B22AAAB85800C024DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391A27D52AAAB85800C024DE /* Icon.png in Resources */,
+				391A27D72AAAB85800C024DE /* Style.css in Resources */,
+				391A27BA2AAAB85800C024DE /* Main.storyboard in Resources */,
+				391A27D92AAAB85800C024DE /* Script.js in Resources */,
+				391A27DD2AAAB85800C024DE /* Assets.xcassets in Resources */,
+				391A27D32AAAB85800C024DE /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391A27BF2AAAB85800C024DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391A27FC2AAAB85800C024DE /* LICENSE in Resources */,
+				391A27FB2AAAB85800C024DE /* github-homepage.css in Resources */,
+				391A27FF2AAAB85800C024DE /* manifest.json in Resources */,
+				391A27FE2AAAB85800C024DE /* README.md in Resources */,
+				391A27FD2AAAB85800C024DE /* github-homepage.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391A27C92AAAB85800C024DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391A27F72AAAB85800C024DE /* LICENSE in Resources */,
+				391A27F62AAAB85800C024DE /* github-homepage.css in Resources */,
+				391A27FA2AAAB85800C024DE /* manifest.json in Resources */,
+				391A27F92AAAB85800C024DE /* README.md in Resources */,
+				391A27F82AAAB85800C024DE /* github-homepage.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		391A279E2AAAB85800C024DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391A27DA2AAAB85800C024DE /* ViewController.swift in Sources */,
+				391A27A62AAAB85800C024DE /* AppDelegate.swift in Sources */,
+				391A27A82AAAB85800C024DE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391A27B02AAAB85800C024DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391A27DB2AAAB85800C024DE /* ViewController.swift in Sources */,
+				391A27B72AAAB85800C024DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391A27BD2AAAB85800C024DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391A27DE2AAAB85800C024DE /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391A27C72AAAB85800C024DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391A27DF2AAAB85800C024DE /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		391A27C42AAAB85800C024DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 391A27C02AAAB85800C024DE /* GitHub Homepage Restorer Extension (iOS) */;
+			targetProxy = 391A27C32AAAB85800C024DE /* PBXContainerItemProxy */;
+		};
+		391A27CE2AAAB85800C024DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 391A27CA2AAAB85800C024DE /* GitHub Homepage Restorer Extension (macOS) */;
+			targetProxy = 391A27CD2AAAB85800C024DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		391A27952AAAB85700C024DE /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				391A27962AAAB85700C024DE /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		391A27A92AAAB85800C024DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				391A27AA2AAAB85800C024DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		391A27AC2AAAB85800C024DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				391A27AD2AAAB85800C024DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		391A27B82AAAB85800C024DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				391A27B92AAAB85800C024DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		391A27E02AAAB85800C024DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		391A27E12AAAB85800C024DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		391A27E32AAAB85800C024DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6Y955P58B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GitHub Homepage Restorer Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samjakob.GitHub-Homepage-Restorer.Extension";
+				PRODUCT_NAME = "GitHub Homepage Restorer Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		391A27E42AAAB85800C024DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6Y955P58B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GitHub Homepage Restorer Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samjakob.GitHub-Homepage-Restorer.Extension";
+				PRODUCT_NAME = "GitHub Homepage Restorer Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		391A27E72AAAB85800C024DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6Y955P58B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GitHub Homepage Restorer";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samjakob.GitHub-Homepage-Restorer";
+				PRODUCT_NAME = "GitHub Homepage Restorer";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		391A27E82AAAB85800C024DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6Y955P58B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GitHub Homepage Restorer";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samjakob.GitHub-Homepage-Restorer";
+				PRODUCT_NAME = "GitHub Homepage Restorer";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		391A27EA2AAAB85800C024DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/GitHub Homepage Restorer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6Y955P58B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GitHub Homepage Restorer Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samjakob.GitHub-Homepage-Restorer.Extension";
+				PRODUCT_NAME = "GitHub Homepage Restorer Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		391A27EB2AAAB85800C024DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/GitHub Homepage Restorer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6Y955P58B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GitHub Homepage Restorer Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samjakob.GitHub-Homepage-Restorer.Extension";
+				PRODUCT_NAME = "GitHub Homepage Restorer Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		391A27EE2AAAB85800C024DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/GitHub Homepage Restorer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6Y955P58B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GitHub Homepage Restorer";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samjakob.GitHub-Homepage-Restorer";
+				PRODUCT_NAME = "GitHub Homepage Restorer";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		391A27EF2AAAB85800C024DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/GitHub Homepage Restorer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6Y955P58B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GitHub Homepage Restorer";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samjakob.GitHub-Homepage-Restorer";
+				PRODUCT_NAME = "GitHub Homepage Restorer";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		391A27922AAAB85700C024DE /* Build configuration list for PBXProject "GitHub Homepage Restorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				391A27E02AAAB85800C024DE /* Debug */,
+				391A27E12AAAB85800C024DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		391A27E22AAAB85800C024DE /* Build configuration list for PBXNativeTarget "GitHub Homepage Restorer Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				391A27E32AAAB85800C024DE /* Debug */,
+				391A27E42AAAB85800C024DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		391A27E62AAAB85800C024DE /* Build configuration list for PBXNativeTarget "GitHub Homepage Restorer (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				391A27E72AAAB85800C024DE /* Debug */,
+				391A27E82AAAB85800C024DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		391A27E92AAAB85800C024DE /* Build configuration list for PBXNativeTarget "GitHub Homepage Restorer Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				391A27EA2AAAB85800C024DE /* Debug */,
+				391A27EB2AAAB85800C024DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		391A27ED2AAAB85800C024DE /* Build configuration list for PBXNativeTarget "GitHub Homepage Restorer (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				391A27EE2AAAB85800C024DE /* Debug */,
+				391A27EF2AAAB85800C024DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 391A278F2AAAB85700C024DE /* Project object */;
+}
