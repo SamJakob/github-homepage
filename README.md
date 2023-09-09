@@ -28,15 +28,6 @@ Restore the old GitHub dashboard.
 
 
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/github-homepage-restorer/)
-- [Safari](https://github.com/SamJakob/github-homepage/releases/latest) (for macOS) - see the footnote for iOS [^1]
-
-  1. First, go to the releases page by clicking the link above and download the application.
-     _(Safari Extensions are bundled in applications, but this was just generated with the command-line tool from the Chrome/Firefox extension. You can see the macOS/iOS Source on the branch `feat/safari`)_
-  2. Run the application. It should show a message saying that the extension is not enabled and just have a button to Quit the application.
-  3. Quit the application and switch to Safari.
-  4. In the menu bar, choose Safari -> Safari Extensions.
-  5. Check the GitHub Homepage Restorer option.
-  6. Choose "Edit Websites" and for github.com change to "Allow".
 
 <br>
 
@@ -44,6 +35,18 @@ Restore the old GitHub dashboard.
 
 The extension has been submitted to the following respective store(s) where it is pending review.  
 The below links should start working once it has been approved.
+
+- Safari for macOS and iOS (pending review)
+
+<!--
+  1. First, go to the releases page by clicking the link above and download the application.
+     _(Safari Extensions are bundled in applications, but this was just generated with the command-line tool from the Chrome/Firefox extension. You can see the macOS/iOS Source on the branch `feat/safari`)_
+  2. Run the application. It should show a message saying that the extension is not enabled and just have a button to Quit the application.
+  3. Quit the application and switch to Safari.
+  4. In the menu bar, choose Safari -> Safari Extensions.
+  5. Check the GitHub Homepage Restorer option.
+  6. Choose "Edit Websites" and for github.com change to "Allow".
+-->
 
 - [Chrome](https://chrome.google.com/webstore/detail/cfdlcjikdibojiddgiijfeiaoohbklec/)
 
@@ -55,17 +58,6 @@ _Links will be unavailable whilst review is pending._
 2. Enable "Development Mode" in the top-right.
 3. Choose "Load Unpacked Extension" and navigate to the root of the cloned repository.
 4. You will then need to click the extensions icon in the top-right, choose "GitHub Homepage Restorer", right-click and select "Always Allow on github.com".
-
-<br>
-
-## Not Submitted
-
-- iOS (functional) [^1]
-
-### Manual iOS Installation
-
-**If you have an Apple Developer license**, you can manually sign the iOS version with your own Developer ID.
-Head over to the `feat/safari` branch and open it in Xcode.
 
 <br>
 
@@ -81,6 +73,8 @@ To install it temporarily for the current session:
 2. Under "Temporary Extensions" choose "Load Temporary Add-on..."
 3. Choose the `manifest.json` file in this repository (you need the other files to be there also, so having cloned the repository you can then navigate to that file in the Select dialog).
 
+<!--
 <br>
 
 [^1]: The same extension as macOS works on iOS, however iOS Safari Extensions can only be distributed through the App Store as they are packaged in an iOS App. I'm not sure how likely Apple would be to approve this extension and some further work may be required to reach App Store standards but I will look into it. (For those with a developer license already, see [Manual iOS Installation](#manual-ios-installation).)
+-->
