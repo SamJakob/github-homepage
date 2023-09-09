@@ -5,8 +5,17 @@ Restore the old GitHub dashboard.
 <br>
 
 **Changelog**
+
+<!--
+  Safari's v1.0.2 has a minor alteration to it's code to ensure full functionality remains.
+  
+  If further updates (i.e., a v1.0.3) is required, I'll reconcile the versions then as the Safari code is
+  essentially an additional polyfill that should function fine in all browsers and ensure additional
+  robustness.
+-->
+
 - v1.0.2
-  - Bug hotfix for v1.0.1 (issues with Safari, but Firefox and Chrome do appear to be working on v1.0.1 and v1.0.2)
+  - Bug hotfix for v1.0.1
 - v1.0.1
   - Now detects all dashboard pages seamlessly (fixes [#1](https://github.com/SamJakob/github-homepage/issues/1))
   - Firefox for Android support (no actual code changes, just didn't think to tick the box last time lol)
