@@ -1,7 +1,7 @@
 {
-    "manifest_version": 3,
+    "manifest_version": 2,
     "name": "GitHub Homepage Restorer",
-    "version": "1.0.2",
+    "version": "1.0.3",
 
     "description": "Restore the original GitHub homepage!",
 

@@ -211,26 +211,36 @@
     // Hook into the Turbo pre-render event to override the feed-container
     // if Turbo is used to navigate to a dashboard page.
     addEventListener('turbo:before-render', (event) => {
-        if (!event || !event.detail || !event.detail.newBody) return;
-        // Inspect the body of the page being rendered to see if it contains
-        // a feed-container.
-        const newPage = event.detail.newBody;
-        const newFeedContainer = newPage.querySelector('feed-container');
+        if (event && Object.hasOwnProperty(event, "detail")) {
+            // Inspect the body of the page being rendered to see if it contains
+            // a feed-container.
+            const newPage = event.detail.newBody;
+            const newFeedContainer = newPage.querySelector('feed-container');
 
-        // If the new page contains a feed-container, we need to override it.
-        if (newFeedContainer) {
-            // Replace the feed-container with the loading animation.
-            newFeedContainer.replaceChildren(loader('One moment please...'));
+            // If the new page contains a feed-container, we need to override it.
+            if (newFeedContainer) {
+                // Replace the feed-container with the loading animation.
+                newFeedContainer.replaceChildren(loader('One moment please...'));
+
+                // Trigger the override.
+                // In this case, we can always eagerly load the old dashboard feed
+                // as we already know that the page contains a feed-container.
+                // (Turbo gave us the opportunity to both detect and inject our
+                //  loading animation into the feed container, so it must be
+                //  there.)
+                triggerOverride(true);
+            }
             
-            // Trigger the override.
-            // In this case, we can always eagerly load the old dashboard feed
-            // as we already know that the page contains a feed-container.
-            // (Turbo gave us the opportunity to both detect and inject our
-            //  loading animation into the feed container, so it must be
-            //  there.)
-            triggerOverride(true);
+            // If the above event handler worked successfully (i.e., the weird
+            // Safari-only issues did NOT occur, we're done here!)
+            return;
         }
-    })
+        
+        // If the override fails, trigger the override without eagerly loading the
+        // dashboard (so if, at some point, we get a dashboard element, we can
+        // override it with the good feed!).
+        triggerOverride(false);
+    });
 
     // --------------------------------------------------------------
 
