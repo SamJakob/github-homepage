@@ -5,6 +5,8 @@ Restore the old GitHub dashboard.
 <br>
 
 **Changelog**
+- v1.0.2
+  - Bug hotfix for v1.0.1 (issues with Safari, but Firefox and Chrome do appear to be working on v1.0.1 and v1.0.2)
 - v1.0.1
   - Now detects all dashboard pages seamlessly (fixes [#1](https://github.com/SamJakob/github-homepage/issues/1))
   - Firefox for Android support (no actual code changes, just didn't think to tick the box last time lol)
@@ -16,7 +18,7 @@ Restore the old GitHub dashboard.
 ## Released
 
 
-- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/github-homepage-restorer/) - (v1.0 currently, v1.0.1 for desktop and mobile is pending review)
+- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/github-homepage-restorer/)
 - [Safari](https://github.com/SamJakob/github-homepage/releases/latest) (for macOS) - see the footnote for iOS [^1]
 
   1. First, go to the releases page by clicking the link above and download the application.
