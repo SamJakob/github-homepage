@@ -7,7 +7,7 @@
 
     "content_scripts": [
         {
-            "matches": ["*://github.com/"],
+            "matches": ["*://github.com/*"],
             "css": ["github-homepage.css"],
             "js": ["github-homepage.js"],
             "run_at": "document_start"
