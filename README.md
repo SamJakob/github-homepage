@@ -4,11 +4,20 @@ Restore the old GitHub dashboard.
 
 <br>
 
+**Changelog**
+- v1.0.1
+  - Now detects all dashboard pages seamlessly (fixes [#1](https://github.com/SamJakob/github-homepage/issues/1))
+  - Firefox for Android support (no actual code changes, just didn't think to tick the box last time lol)
+- v1.0
+  - Initial release
+
+<br>
+
 ## Released
 
 
-- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/github-homepage-restorer/)
-- [Safari](https://github.com/SamJakob/github-homepage/releases/tag/v1.0) (for macOS) - see the footnote for iOS [^1]
+- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/github-homepage-restorer/) - (v1.0 currently, v1.0.1 for desktop and mobile is pending review)
+- [Safari](https://github.com/SamJakob/github-homepage/releases/latest) (for macOS) - see the footnote for iOS [^1]
 
   1. First, go to the releases page by clicking the link above and download the application.
      _(Safari Extensions are bundled in applications, but this was just generated with the command-line tool from the Chrome/Firefox extension. You can see the macOS/iOS Source on the branch `feat/safari`)_
@@ -35,8 +44,6 @@ _Links will be unavailable whilst review is pending._
 2. Enable "Development Mode" in the top-right.
 3. Choose "Load Unpacked Extension" and navigate to the root of the cloned repository.
 4. You will then need to click the extensions icon in the top-right, choose "GitHub Homepage Restorer", right-click and select "Always Allow on github.com".
-(This is because the manifest version was set to v3, which is a requirement for Chrome. The version submitted to Firefox is v2 because I did not realize this before-hand and the
-v2 manifest does not require this to be done - it will just work straight away).
 
 <br>
 
