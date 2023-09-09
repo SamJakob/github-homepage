@@ -1,13 +1,13 @@
 {
     "manifest_version": 3,
     "name": "GitHub Homepage Restorer",
-    "version": "1.0",
+    "version": "1.0.1",
 
     "description": "Restore the original GitHub homepage!",
 
     "content_scripts": [
         {
-            "matches": ["*://github.com/"],
+            "matches": ["*://github.com/*"],
             "css": ["github-homepage.css"],
             "js": ["github-homepage.js"],
             "run_at": "document_start"
