@@ -211,6 +211,7 @@
     // Hook into the Turbo pre-render event to override the feed-container
     // if Turbo is used to navigate to a dashboard page.
     addEventListener('turbo:before-render', (event) => {
+        if (!event || !event.detail || !event.detail.newBody) return;
         // Inspect the body of the page being rendered to see if it contains
         // a feed-container.
         const newPage = event.detail.newBody;
