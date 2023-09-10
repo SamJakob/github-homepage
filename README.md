@@ -26,8 +26,9 @@ Restore the old GitHub dashboard.
 
 ## Released
 
-- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/github-homepage-restorer/)
-- [Safari for macOS](https://apps.apple.com/app/github-homepage-restorer/id6465572067)
+- [**Firefox**](https://addons.mozilla.org/en-US/firefox/addon/github-homepage-restorer/)
+- [**Safari for macOS**](https://apps.apple.com/app/github-homepage-restorer/id6465572067)
+- [**Chrome**](https://chrome.google.com/webstore/detail/cfdlcjikdibojiddgiijfeiaoohbklec/) (v1.0 released, v1.0.2 pending approval)
 
 <br>
 
@@ -36,28 +37,15 @@ Restore the old GitHub dashboard.
 The extension has been submitted to the following respective store(s) where it is pending review.  
 The below links should start working once it has been approved.
 
-- Safari for iOS (pending review)
+- **Safari for iOS**
 
-<!--
-  1. First, go to the releases page by clicking the link above and download the application.
-     _(Safari Extensions are bundled in applications, but this was just generated with the command-line tool from the Chrome/Firefox extension. You can see the macOS/iOS Source on the branch `feat/safari`)_
-  2. Run the application. It should show a message saying that the extension is not enabled and just have a button to Quit the application.
-  3. Quit the application and switch to Safari.
-  4. In the menu bar, choose Safari -> Safari Extensions.
-  5. Check the GitHub Homepage Restorer option.
-  6. Choose "Edit Websites" and for github.com change to "Allow".
--->
+<br>
 
-- [Chrome](https://chrome.google.com/webstore/detail/cfdlcjikdibojiddgiijfeiaoohbklec/)
+## Supported
 
-_Links will be unavailable whilst review is pending._
+These versions are supported but not available due to reasons outside of my control.
 
-### Manual Chrome Installation
-
-1. Go to `chrome://extensions` or find Extensions in the Settings page.
-2. Enable "Development Mode" in the top-right.
-3. Choose "Load Unpacked Extension" and navigate to the root of the cloned repository.
-4. You will then need to click the extensions icon in the top-right, choose "GitHub Homepage Restorer", right-click and select "Always Allow on github.com".
+- **Firefox for Android**: The [Firefox](https://addons.mozilla.org/en-US/firefox/addon/github-homepage-restorer/) extension supports and has been tested on Firefox for Android, however Firefox for Android presently only supports a limited number of extensions for installation. See [this article](https://support.mozilla.org/en-US/kb/find-and-install-add-ons-firefox-android) for details (as well as how to install extensions - such as this one - on Firefox Nightly).
 
 <br>
 
@@ -65,7 +53,7 @@ _Links will be unavailable whilst review is pending._
 
 ### Manual Firefox Installation
 
-**You cannot permenantly install this addon in Firefox without it being accepted on the Developer Hub.**
+**Manual Firefox installation does not persist after the app is restarted.**
 
 To install it temporarily for the current session:
 
@@ -73,8 +61,9 @@ To install it temporarily for the current session:
 2. Under "Temporary Extensions" choose "Load Temporary Add-on..."
 3. Choose the `manifest.json` file in this repository (you need the other files to be there also, so having cloned the repository you can then navigate to that file in the Select dialog).
 
-<!--
-<br>
+### Manual Chrome Installation
 
-[^1]: The same extension as macOS works on iOS, however iOS Safari Extensions can only be distributed through the App Store as they are packaged in an iOS App. I'm not sure how likely Apple would be to approve this extension and some further work may be required to reach App Store standards but I will look into it. (For those with a developer license already, see [Manual iOS Installation](#manual-ios-installation).)
--->
+1. Go to `chrome://extensions` or find Extensions in the Settings page.
+2. Enable "Development Mode" in the top-right.
+3. Choose "Load Unpacked Extension" and navigate to the root of the cloned repository.
+4. You will then need to click the extensions icon in the top-right, choose "GitHub Homepage Restorer", right-click and select "Always Allow on github.com".
