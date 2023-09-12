@@ -28,7 +28,7 @@ Restore the old GitHub dashboard.
 
 - [**Firefox**](https://addons.mozilla.org/en-US/firefox/addon/github-homepage-restorer/)
 - [**Safari for macOS and iOS**](https://apps.apple.com/app/github-homepage-restorer/id6465572067)
-- [**Chrome**](https://chrome.google.com/webstore/detail/cfdlcjikdibojiddgiijfeiaoohbklec/) (v1.0 released, v1.0.2 pending approval)
+- [**Chrome**](https://chrome.google.com/webstore/detail/cfdlcjikdibojiddgiijfeiaoohbklec/)
 
 <br>
 
